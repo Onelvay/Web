@@ -6,6 +6,7 @@ body{
 .main{
     display: flex;
     flex-direction: column;
+    
 }
 
 .fdr{
@@ -14,7 +15,7 @@ body{
 }
 
 .firstblock{
-    
+    position: relative;
     margin-left: 130px;
     margin-top: 6px;
 }
@@ -58,7 +59,7 @@ body{
 .secondblock{
     margin-left: -8px;
     margin-top: 10px;
-   display:block;
+
 }
 .insecbl{
     margin-left: 176px;
@@ -92,18 +93,18 @@ body{
     display: flex;
     flex-direction: row;
     margin-top:100px;
-    margin-left:120px;
-    
+    /* margin-left:120px; */
+    justify-content: center;
 }
 .card{
-    position: relative;
+    
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
     min-width: 1px;
     word-wrap: break-word;
     background-clip: border-box;
-    margin-right:25px;
+    /* margin-right:25px; */
     max-width: 22.1%;
 }
 .headers{
