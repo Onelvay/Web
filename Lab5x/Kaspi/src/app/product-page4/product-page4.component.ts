@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { products4 } from 'C:/pp/web/Lab4 — копия/Kaspi/src/app/products4';
+import { products4 } from 'C:/pp/web/Lab5x/Kaspi/src/app/products4';
 
 
 @Component({

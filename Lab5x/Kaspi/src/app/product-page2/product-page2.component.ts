@@ -1,6 +1,6 @@
 
 import { Component, Input } from '@angular/core';
-import { products2 } from 'C:/pp/web/Lab4 — копия/Kaspi/src/app/products2';
+import { products2 } from 'C:/pp/web/Lab5x/Kaspi/src/app/products2';
 
 
 @Component({

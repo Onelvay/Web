@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { products } from 'C:/pp/web/Lab4 — копия/Kaspi/src/app/products';
+import { products } from 'C:/pp/web/Lab5x/Kaspi/src/app/products';
 
 @Component({
   selector: 'app-product-page',
