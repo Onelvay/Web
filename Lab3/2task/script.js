@@ -33,13 +33,7 @@ function deleteTask(index){
   renderTasks();
 };
 function markTaskDone(index){
-    if(tasks[index].done){
-        tasks[index].done=false
-    }
-    else{
-        tasks[index].done = true;
-    }
-  
+  tasks[index].done=!tasks[index].done
   renderTasks();
 };
 
